@@ -1,0 +1,9 @@
+{
+  "name": "libphp-php-monorepo",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "bootstrap": "npx lerna exec npm install"
+  }
+}
