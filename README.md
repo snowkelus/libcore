@@ -1,6 +1,6 @@
 ## Snowkelus-LibCore
 
-#### ⚙️ Runtimes
+#### Runtime Availability:
 
 - [@libphp/amazon-linux-2-v72](@libphp/amazon-linux-2-v72)
 - [@libphp/amazon-linux-2-v73](@libphp/amazon-linux-2-v73)
