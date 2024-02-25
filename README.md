@@ -1,16 +1,6 @@
-<h1 align=center>libphp</h1>
+## Snowkelus-LibCore
 
-<p align=center>
-   🐘 PHP library compiled for many platform and cloud providers, especially for AWS and ▲ Vercel.
-</p>
-
-<p align=center>
-🕹 <a href="https://f3l1x.io">f3l1x.io</a> | 💻 <a href="https://github.com/f3l1x">f3l1x</a> | 🐦 <a href="https://twitter.com/xf3l1x">@xf3l1x</a>
-</p>
-
------
-
-## ⚙️ Runtimes
+#### ⚙️ Runtimes
 
 - [@libphp/amazon-linux-2-v72](@libphp/amazon-linux-2-v72)
 - [@libphp/amazon-linux-2-v73](@libphp/amazon-linux-2-v73)
@@ -19,12 +9,6 @@
 - [@libphp/amazon-linux-2-v81](@libphp/amazon-linux-2-v81)
 - [@libphp/amazon-linux-2-v82](@libphp/amazon-linux-2-v82)
 - [@libphp/amazon-linux-2-v83](@libphp/amazon-linux-2-v83)
-
-## ⚙️ Usage
-
-This repository contains libraries for building PHP layers in clouds (AWS, ...). You can build your package/library based on these libraries.
-
-For example `@libphp/amazon-linux-2-v83`. Used in [`vercel-php`](https://github.com/juicyfx/vercel-php) a PHP runtime for [Vercel](https://vercel.com) platform.
 
 ```js
 import * as php from "@libphp/amazon-linux-2-v83";
@@ -53,7 +37,10 @@ php.getSharedLibsFiles(); // list of all shared libs
 php.getFiles(); // list of all related files
 ```
 
-## 📝 License
+#### DOSS (Developer Open-Source Software): @snowkelus
 
-Copyright © 2020 [f3l1x](https://github.com/f3l1x).
-This project is [MIT](LICENSE) licensed.
+* Now a Property of @snowkelus/libcore for @snowkelus/snowkelus-php (0.2.1)
+
+#### CTTO (Credits to the Owner):
+
+* Based on the works of Felix @f3l1x/libphp
